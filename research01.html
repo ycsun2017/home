@@ -24,6 +24,15 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
+	  <script>
+		  var _hmt = _hmt || [];
+		  (function() {
+			  var hm = document.createElement("script");
+			  hm.src = "https://hm.baidu.com/hm.js?05af56d0d3a1c2200f9ded78deee94db";
+			  var s = document.getElementsByTagName("script")[0];
+			  s.parentNode.insertBefore(hm, s);
+		  })();
+	  </script>
   </head>
 
   <body>
@@ -64,6 +73,8 @@
 					<p>Yanchao Sun, Cong Qian, Ning Yang, Philip S. Yu
 					</p>
 					<p>Has been accepted by <a href="http://icdm2017.bigke.org/">the IEEE International Conference on Data Mining (ICDM 2017)</a></p>
+					
+					<img src="assets/img/research01.png" width="80%" align="center">
 					<p>
 						<strong>Abstract </strong>
 						Recently, diffusion history inference has become an emerging research topic due to its great benefits for various applications, whose purpose is to reconstruct the missing histories of information diffusion traces according to incomplete observations. The existing methods, however, often focus only on single information diffusion trace, while in a real-world social network, there often coexist multiple information diffusions over the same network. In this paper, we propose a novel approach called Collaborative Inference Model (CIM) for the problem of the inference of coexisting information diffusions. By exploiting the synergism between the coexisting information diffusions, CIM holistically models multiple information diffusions as a sparse 4th-order tensor called Coexisting Diffusions Tensor (CDT) without any prior assumption of diffusion models, and collaboratively infers the histories of the coexisting information diffusions via a low-rank approximation of CDT with a fusion of heterogeneous constraints generated from additional data sources. To improve the efficiency, we further propose an optimal algorithm called Time Window based Parallel Decomposition Algorithm (TWPDA), which can speed up the inference without compromise on the accuracy by utilizing the temporal locality of information diffusions. The extensive experiments conducted on real world datasets and synthetic datasets verify the effectiveness and efficiency of CIM and TWPDA.
