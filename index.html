@@ -20,6 +20,11 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/hover.zoom.js"></script>
     <script src="assets/js/hover.zoom.conf.js"></script>
+    <script> 
+      $(function(){
+      $("#footer").load("footer.html"); 
+      });
+    </script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -35,6 +40,8 @@
         s.parentNode.insertBefore(hm, s);
       })();
     </script>
+
+    
 
   </head>
 
@@ -158,27 +165,9 @@
   </div><!-- /container -->
 
 	
-	
-	<!-- +++++ Footer Section +++++ -->
-
-	<div id="footer">
-		<div class="container">
-			<div class="row" align="center">
-				<div>
-					<h4>Contact me:
-					</h4>
-					<p>
-						Yanchao Sun<br>
-                        ycs@cs.umd.edu <br>
-						ycsun1531@gmail.com  <br>
-						+1 240 413 8873
-					</p>
-				</div><!-- /col-lg-4 -->
-			</div>
-
-		</div>
-	</div>
-	
+  <!-- +++++ Footer Section +++++ -->
+  <div id="footer"></div>
+  <!--#include file="common/footer.html" -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
